@@ -9,8 +9,3 @@
     font-family: "Poppins", sans-serif;
   }
 }
-@layer utilities {
-  .xxs {
-    font-size: 8px;
-  }
-}

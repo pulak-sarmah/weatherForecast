@@ -6,7 +6,7 @@ function Inputs() {
       <div className="flex flex-row items-center justify-center w-3/4 space-x-4">
         <input
           type="text"
-          className="p-2 text-xl font-light capitalize shadow-xl focus:outline-none text-transform: placeholder:lowercase"
+          className="p-2 pl-2 text-xl font-light capitalize shadow-xl focus:outline-none text-transform: placeholder:lowercase"
           placeholder="Search for city....."
         />
         <UilSearch
