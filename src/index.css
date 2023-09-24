@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500;600;700&family=Lato:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Sofia+Sans+Semi+Condensed&family=Work+Sans&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+}
+@layer utilities {
+  .clear {
+    background-image: url("./clear-background-image.jpg");
+    /* Add other styles for clear weather */
+  }
+
+  .cloudy {
+    background-image: url("./cloudy-background-image.jpg");
+    /* Add other styles for cloudy weather */
+  }
+
+  .rainy {
+    background-image: url("./rainy-background-image1.jpg");
+    /* Add other styles for rainy weather */
+  }
+
+  .snowy {
+    background-image: url("./snowy-background-image.jpg");
+  }
+  .overcast {
+    background-image: url("./overcast-background-image.jpg");
+  }
+
+  .mist {
+    background-image: url("./mist-background-image.jpg");
+  }
+
+  .weather-background {
+    background-size: cover;
+    background-position: center;
+  }
+}
