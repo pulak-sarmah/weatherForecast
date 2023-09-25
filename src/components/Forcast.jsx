@@ -12,7 +12,7 @@ function Forcast({ weatherData }) {
       </div>
       <hr className="my-2" />
       <div className="flex flex-wrap justify-center gap-8">
-        {weatherData.forecast.forecastday.map((item) => (
+        {weatherData.forecast.forecastday.slice(1, 7).map((item) => (
           <Card key={item.date_epoch} weatherDataObj={item} />
         ))}
       </div>

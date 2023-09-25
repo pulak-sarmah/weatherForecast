@@ -12,15 +12,18 @@ function Inputs({ onSearch }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     onSearch(searchQuery);
+    setSearchQuery("");
   };
   const handleSearchClick = () => {
     onSearch(searchQuery);
+    setSearchQuery("");
   };
   const handleLocationClick = () => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         const { latitude, longitude } = position.coords;
         onSearch(`${latitude},${longitude}`);
+        setSearchQuery("");
       },
       (error) => {
         console.error("Error getting current location:", error);

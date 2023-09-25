@@ -6,6 +6,11 @@ This is a simple React web application that provides a 7-day weather forecast.
 
 - View weather forecast for the next 7 days.
 
+## Screenshot
+
+![Example Image](public/demo.png)
+![Example Image](public/demo2.png)
+
 ## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
