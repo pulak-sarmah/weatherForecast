@@ -50,7 +50,7 @@ function App() {
       weatherClass = "snowy";
     } else if (condition.includes("overcast")) {
       weatherClass = "overcast";
-    } else if (condition.includes("mist")) {
+    } else if (condition.includes("mist") || condition.includes("haze")) {
       weatherClass = "mist";
     } else {
       weatherClass = "bg-gradient-to-br from-cyan-700 to-blue-200";
@@ -59,7 +59,7 @@ function App() {
 
   return (
     <main
-      className={`px-32 pt-3 pb-6 mx-auto mt-4 shadow-xl max-w-screen-xs bg-gradient-to-br ${weatherClass} h-fit shadow-gray-400 weather-background `}
+      className={`px-32 pt-3 pb-6 mx-auto mt-4 shadow-xl max-w-screen-xs bg-gradient-to-br ${weatherClass} h-fit shadow-gray-400 weather-background rounded-lg `}
     >
       {loading ? (
         // Display loading icon

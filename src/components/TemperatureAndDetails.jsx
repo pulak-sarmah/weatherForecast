@@ -13,16 +13,20 @@ function TemperatureAndDetails({ weatherData }) {
 
   return (
     <div>
-      <div className="flex items-center justify-center py-6 text-xl text-red-400">
+      <div className="flex items-center justify-center w-20 py-6 m-auto text-xl shadow-xl rounded-xl ">
         {weatherData.current.condition.text}
       </div>
       <div className="flex flex-row items-center justify-between py-3 text-slate700">
-        <img src={weatherData.current.condition.icon} alt="weather image" />
+        <img
+          className="shadow-xl rounded-2xl"
+          src={weatherData.current.condition.icon}
+          alt="weather image"
+        />
 
-        <p className="pl-20 text-8xl">{weatherData.current.temp_c} °</p>
+        <p className="pl-36 text-8xl">{weatherData.current.temp_c}°</p>
 
-        <div className="flex flex-col space-y-2">
-          <div className="flex items-center justify-center text-sm font-light">
+        <div className="flex flex-col p-5 space-y-2 shadow-xl rounded-2xl">
+          <div className="flex items-center justify-center text-sm font-light ">
             <UilTemperatureHalf size={18} className="mr-1" />
             Real feel:
             <span className="ml-1 font-medium">
