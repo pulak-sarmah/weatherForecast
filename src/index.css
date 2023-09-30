@@ -12,17 +12,14 @@
 @layer utilities {
   .clear {
     background-image: url("./clear-background-image.jpg");
-    /* Add other styles for clear weather */
   }
 
   .cloudy {
     background-image: url("./cloudy-background-image.jpg");
-    /* Add other styles for cloudy weather */
   }
 
   .rainy {
     background-image: url("./rainy-background-image1.jpg");
-    /* Add other styles for rainy weather */
   }
 
   .snowy {
