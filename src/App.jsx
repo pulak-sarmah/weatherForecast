@@ -2,7 +2,7 @@ import "./index.css";
 import "./App.css";
 
 import TimeAndLocation from "./components/TimeAndLocation";
-import Inputs from "./components/inputs";
+import Inputs from "./components/Inputs";
 import TemperatureAndDetails from "./components/TemperatureAndDetails";
 import { WeatherService, inputData } from "./services/WeatherService";
 import Forcast from "./components/Forcast";
