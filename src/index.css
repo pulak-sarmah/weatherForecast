@@ -11,26 +11,26 @@
 }
 @layer utilities {
   .clear {
-    background-image: url("./clear-background-image.jpg");
+    background-image: url("../clear-background-image.jpg");
   }
 
   .cloudy {
-    background-image: url("./cloudy-background-image.jpg");
+    background-image: url("../cloudy-background-image.jpg");
   }
 
   .rainy {
-    background-image: url("./rainy-background-image1.jpg");
+    background-image: url("../rainy-background-image1.jpg");
   }
 
   .snowy {
-    background-image: url("./snowy-background-image.jpg");
+    background-image: url("../snowy-background-image.jpg");
   }
   .overcast {
-    background-image: url("./overcast-background-image.jpg");
+    background-image: url("../overcast-background-image.jpg");
   }
 
   .mist {
-    background-image: url("./mist-background-image.jpg");
+    background-image: url("../mist-background-image.jpg");
   }
 
   .weather-background {
